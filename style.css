@@ -56,8 +56,30 @@ body {
 }
 
 .btn:hover {
-    background-color: green;
+    /* background-color: green;
     color: white;
+
     font-weight: bolder;
-    font-size: large;
+    font-size: large; */
+    letter-spacing: 0.1rem;
+    color: yellow;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.output {
+    border: 1px solid white;
+    width: 60%;
+    height: 15vh;
+    text-align: center;
+    margin: auto;
+    margin-top: 5rem;
+    border-radius: 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.637), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.outputtext {
+    margin-top: 2rem;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
