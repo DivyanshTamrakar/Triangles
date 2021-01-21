@@ -20,7 +20,7 @@ body {
 .subheading {
     padding: 1rem;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 3rem;
     font-size: large;
     color: white;
     border: 1px solid white;
@@ -40,4 +40,24 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.637), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
+}
+
+.btn {
+    padding: 0.5rem;
+    width: 20%;
+    border: transparent;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 2rem;
+    background-color: white;
+    color: blue;
+
+
+}
+
+.btn:hover {
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
 }
